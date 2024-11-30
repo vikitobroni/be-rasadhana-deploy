@@ -46,7 +46,7 @@ app.use('/auth', UserRouter);
 app.use('/photos', PhotoRouter);
 
 app.get('/', (req, res) => {
-  res.send('Welcome to the API Rasadhana versi 1.0');
+  res.send('Welcome to the API Rasadhana versi 2.0');
 });
 
 app.listen(PORT, () => {
